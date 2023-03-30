@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/cryptobot-381321/discord-crypto-bot', '.']
+images:
+- 'gcr.io/cryptobot-381321/discord-crypto-bot'
